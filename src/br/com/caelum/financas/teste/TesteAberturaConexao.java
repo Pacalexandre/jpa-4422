@@ -5,7 +5,7 @@ import javax.persistence.*;
 import br.com.caelum.financas.util.*;
 
 public class TesteAberturaConexao {
-
+	
 	public static void main(String[] args) throws InterruptedException {
 
 		for(int i=0 ; i<30 ; i++){
