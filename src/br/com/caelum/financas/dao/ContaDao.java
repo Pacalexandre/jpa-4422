@@ -6,6 +6,7 @@ import javax.persistence.*;
 
 import br.com.caelum.financas.modelo.*;
 
+@PersistenceContext
 public class ContaDao {
 
 	private EntityManager manager;

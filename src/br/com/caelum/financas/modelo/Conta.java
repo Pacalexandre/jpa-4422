@@ -3,8 +3,13 @@ package br.com.caelum.financas.modelo;
 import java.util.*;
 
 import javax.persistence.*;
+import javax.persistence.Entity;
+
+import org.hibernate.annotations.*;
+import org.hibernate.annotations.Cache;
 
 @Entity
+@Cache(usage=CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 public class Conta {
 
 	@Id
